@@ -1,4 +1,4 @@
-# AI Playground
+# AI Playground: An Unreal Engine Based Data Ablation tool
 
 ![Showcase](Assets/Showcase.png)
 
