@@ -1,6 +1,6 @@
 # AI Playground: An Unreal Engine Based Data Ablation tool
 
-![Showcase](Assets/Showcase.png){
+<img src="Assets/Showcase.png" alt="drawing" width="600"/>
 
 
 
@@ -11,8 +11,7 @@ AI playground is a Unreal Engine 4 Based Virtual Environment for Gathering Image
 AIP Features Keyboard macros and an interaction Module named "Probe"  that can remember and reproduce the same Image over different circumstances. 
 
 AIP's code can be used to make new environments while keeping the features for other purposes.
-
-![Structure](Assets/Structure.png)
+<img src="Assets/Structure.png" alt="drawing" width="600"/>
 
 
 ## Features: 
