@@ -32,5 +32,9 @@ Press T to view the prespective Depth (Distance of each pixel to the camera)
  
 
 
+Map: 
+<img src="Assets/MAP.png" alt="drawing" width="600"/>
+
+
 AIP:
 1. Download and Run AIP.exe 
