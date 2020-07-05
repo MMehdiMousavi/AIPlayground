@@ -12,6 +12,9 @@ AIP Features Keyboard macros and an interaction Module named "Probe"  that can r
 
 AIP's code can be used to make new environments while keeping the features for other purposes.
 
+![Structure](Assets/Structure.png)
+
+
 ## Features: 
 ##### - Segmentation Glass: 
 Press G for a Global Class Based Pixelwise labels. 
