@@ -1,6 +1,6 @@
 # AI Playground: An Unreal Engine Based Data Ablation tool
 
-![Showcase](Assets/Showcase.png){:height="700px" width="400px"}
+![Showcase](Assets/Showcase.png){
 
 
 
