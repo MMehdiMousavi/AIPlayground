@@ -1,6 +1,6 @@
 # AI Playground
 
-![Showcase](Assets/showcase.png)
+![Showcase](Assets/Showcase.png)
 
 
 
