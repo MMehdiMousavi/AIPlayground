@@ -4,7 +4,11 @@
 </p>
 
 
+## What Is Data Ablation?
+Data Ablation enables you to test the effects of various aspects of data on a ML model, Image processing Algorithm or an AI Agent.For example, to change the color of a couch one would need to swap out two otherwise identical couches and place them in the same, exact location. Aside from its difficulty, this approach is not feasible for natural scenes or crowd-sourced data. 
+AIP will allow you to do just that, and more. with various settings for you to customize like lighting, fidelity (reflections, antialiasing, shadows, render scaling, etc), you will be able to generate vast datasets of otherwise identical images but with subtle differences to isolate and study the effects of different settings on your Model.
 
+## AIP:
 A Virtual Environment for Various Machine Learning and/or a Dataset Generation tool for Image processing Uses
 AIP Can be used to Generate Entire Datasets for various Machine Learning uses. It supports Depth Estimation, Surface Normal Estimation and Pixelwise Segmentation for up to 256 Classes out of the box. It can be used for Reinforcement Learning, SLAM and General Machine learning / Datasets Education.
 
