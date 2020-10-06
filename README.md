@@ -30,11 +30,12 @@ AIP's code can be used to make new environments while keeping the features for o
     Step 1: Download AIP Core
     Step 2: Import AIP Core Folders into any Unreal Engine Project
     Step 3: Set up your Game Mode and Default Pawn to AIP
-    Step 4: Run the Project
-    Step 5: Export your project or Run it in an independent window. Probe will recognize your Window handle and start sending commands to it. 
+    Step 4: Import the Input settings file provided in the AIP Core
+    Step 5: Run the Project
+    Step 6: Export your project or Run it in an independent window. Probe will recognize your Window handle and start sending commands to it. 
     
     Probe Will now start gathering Images based on your setup specifications. Memory module will be saved in a folder called "Probe". If you need to reproduce the images, you need to make sure to save that file.
-## Features: 
+## Hotkeys: 
 ##### - Segmentation Glass: 
 Press G for a Global Class Based Pixelwise labels. 
 Press 0-9 and Ctrl+1 to Ctrl+4 to Access Binary Class-based Pixelwise Labels.
