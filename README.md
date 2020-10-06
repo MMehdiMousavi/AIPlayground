@@ -17,8 +17,23 @@ AIP's code can be used to make new environments while keeping the features for o
   <img src="Assets/Structure.png" alt="drawing" width="600"/>
 </p>
 
-
-
+## How to use: 
+### - Using the App:
+    Step 1: Download Probe
+    Step 2: Set up Probe in Python
+    Step 3: Download and Open AIPlayground.exe 
+    Step 4: Run Probe.
+    
+    Probe Will now start gathering Images based on your setup specifications. Memory module will be saved in a folder called "Probe". If you need to reproduce the images, you need to make sure to save that file.
+    
+### - Using the Source Code:
+    Step 1: Download AIP Core
+    Step 2: Import AIP Core Folders into any Unreal Engine Project
+    Step 3: Set up your Game Mode and Default Pawn to AIP
+    Step 4: Run the Project
+    Step 5: Export your project or Run it in an independent window. Probe will recognize your Window handle and start sending commands to it. 
+    
+    Probe Will now start gathering Images based on your setup specifications. Memory module will be saved in a folder called "Probe". If you need to reproduce the images, you need to make sure to save that file.
 ## Features: 
 ##### - Segmentation Glass: 
 Press G for a Global Class Based Pixelwise labels. 
@@ -33,7 +48,6 @@ Press T to view the prespective Depth (Distance of each pixel to the camera)
  B for Unlit Pass 
  Y, U, I, O for Switching Between Maps 
  
-
 
 Map: 
 <p align="center">
