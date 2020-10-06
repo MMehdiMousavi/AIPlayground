@@ -1,6 +1,7 @@
 # AI Playground: An Unreal Engine Based Data Ablation tool
-
-<img src="Assets/Showcase.png" alt="drawing" width="600"/>
+<p align="center">
+  <img src="Assets/Showcase.png" alt="drawing" width="600"/>
+</p>
 
 
 
@@ -12,8 +13,10 @@ AIP Features Keyboard macros and an interaction Module named "Probe"  that can r
 
 AIP's code can be used to make new environments while keeping the features for other purposes.
 
+<p align="center">
+  <img src="Assets/Structure.png" alt="drawing" width="600"/>
+</p>
 
-<img src="Assets/Structure.png" alt="drawing" width="600"/>
 
 
 ## Features: 
@@ -33,8 +36,6 @@ Press T to view the prespective Depth (Distance of each pixel to the camera)
 
 
 Map: 
-<img src="Assets/MAP.png" alt="drawing" width="600"/>
-
-
-AIP:
-1. Download and Run AIP.exe 
+<p align="center">
+  <img src="Assets/MAP.png" alt="drawing" width="600"/>
+</p>
