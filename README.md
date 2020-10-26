@@ -2,7 +2,7 @@
 <p align="center">
   <img src="Assets/Showcase.png" alt="drawing" width="600"/>
 </p>
-
+Image, Ground Truth, Prediction
 
 ## What Is Data Ablation?
 Data Ablation enables you to test the effects of various aspects of data on a ML model, Image processing Algorithm or an AI Agent.For example, to change the color of a couch one would need to swap out two otherwise identical couches and place them in the same, exact location. Aside from its difficulty, this approach is not feasible for natural scenes or crowd-sourced data. 
