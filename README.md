@@ -16,7 +16,6 @@ AIP will allow you to do just that, and more. with various settings for you to c
 
 
 <div align="center">
-  Youtube Demo:
       <a href="https://www.youtube.com/watch?v=MobY_FQI7lA">
          <img src="https://img.youtube.com/vi/MobY_FQI7lA/0.jpg" style="width:100%;">
       </a>
