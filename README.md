@@ -15,12 +15,6 @@ Data Ablation enables you to test the effects of various aspects of data on a ML
 AIP will allow you to do just that, and more. with various settings for you to customize like lighting, fidelity (reflections, antialiasing, shadows, render scaling, etc), you will be able to generate vast datasets of otherwise identical images but with subtle differences to isolate and study the effects of different settings on your Model.
 
 
-<div align="center">
-      <a href="https://www.youtube.com/watch?v=MobY_FQI7lA">
-         <img src="https://img.youtube.com/vi/MobY_FQI7lA/0.jpg" style="width:100%;">
-      </a>
-</div>
-
 
 ## AIP:
 A Virtual Environment for Various Machine Learning and/or a Dataset Generation tool for Image processing Uses
