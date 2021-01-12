@@ -11,8 +11,8 @@
 
 
 ## What Is Data Ablation?
-Data Ablation enables you to test the effects of various aspects of data on a ML model, Image processing Algorithm or an AI Agent.For example, to change the color of a couch one would need to swap out two otherwise identical couches and place them in the same, exact location. Aside from its difficulty, this approach is not feasible for natural scenes or crowd-sourced data. 
-AIP will allow you to do just that, and more. with various settings for you to customize like lighting, fidelity (reflections, antialiasing, shadows, render scaling, etc), you will be able to generate vast datasets of otherwise identical images but with subtle differences to isolate and study the effects of different settings on your Model.
+Data Ablation enables you to test the effects of various aspects of data on a ML model, Image processing Algorithm or an AI Agent.For example in a real-life scene,  you need to swap out two otherwise identical couches and place them in the same, exact location to change the color of the couch. Aside from its difficulty, this approach is not feasible for natural scenes or crowd-sourced data. 
+AIP will allow you to swap in different aspects of data without changing the other aspects. for example, roughness of a metal surface, or the resolution of textures. with various settings for you to customize like lighting, fidelity (reflections, antialiasing, shadows, render scaling, etc), you will be able to generate vast datasets of otherwise identical images but with subtle differences to isolate and study the effects of different settings on your Model.
 
 
 
