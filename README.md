@@ -8,6 +8,7 @@
 [Paper](https://scholar.google.com/scholar?cluster=12023602735105988107&hl=en&as_sdt=0,11#d=gs_cit&u=%2Fscholar%3Fq%3Dinfo%3AC1Zo2vtq3KYJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26scfhb%3D1%26hl%3Den)
 </p>
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ai-playground-unreal-engine-based-data/depth-estimation-on-diode)](https://paperswithcode.com/sota/depth-estimation-on-diode?p=ai-playground-unreal-engine-based-data)
 
 
 ## What Is Data Ablation?
