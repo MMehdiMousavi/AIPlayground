@@ -1,4 +1,5 @@
-# AI Playground: An Unreal Engine Based Data Ablation tool
+# AIP
+## An Unreal Engine Based Data Ablation tool for Deep Learning
 <p align="center">
   <img src="Assets/Showcase.png" alt="drawing" width="600"/>
 </p>
