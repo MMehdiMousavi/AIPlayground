@@ -19,12 +19,10 @@ AIP will allow you to swap in different aspects of data without changing the oth
 
 
 ## AIP:
-A Virtual Environment for Various Machine Learning and/or a Dataset Generation tool for Image processing Uses
-AIP Can be used to Generate Entire Datasets for various Machine Learning uses. It supports Depth Estimation, Surface Normal Estimation and Pixelwise Segmentation for up to 256 Classes out of the box. It can be used for Reinforcement Learning, SLAM and General Machine learning / Datasets Education.
+A Virtual Environment for Various Machine Learning and/or a Dataset Generation tool for Image processing.
 
-AI playground is a Unreal Engine 4 Based Virtual Environment for Gathering Image Data Actively or Passively. 
+AIP Can be used to Generate Entire Datasets for various Machine Learning uses. It supports Depth Estimation, Surface Normal Estimation and Pixelwise Segmentation for up to 256 Classes out of the box. 
 AIP Features Keyboard macros and an interaction Module named "Probe"  that can remember and reproduce the same Image over different circumstances. 
-
 AIP's code can be used to make new environments while keeping the features for other purposes.
 
 <p align="center">
