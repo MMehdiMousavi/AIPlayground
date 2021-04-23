@@ -1,0 +1,12 @@
+{
+  "train": [
+    "0.png",
+    "1000.png"
+    ],
+  "validation": [
+   "1001.png"
+  ],
+  "test": [
+    "1030.png"
+  ]
+}
