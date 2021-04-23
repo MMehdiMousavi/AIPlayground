@@ -27,5 +27,5 @@ if __name__ == "__main__":
     ap.add_argument('-ms', '--model_scale', default=1, type=int, help='model_scale')
 
     """RUN as : python normals_main.py -ph train -b 4 -e 251 -ms 1 -data datasets"""
-    runner = EasyTorch(dataspecs=[NORM_DATA], phase='train', args=ap, load_sparse=True, num_channel=3, num_class=3)
+    runner = EasyTorch(dataspecs=[NORM_DATA], args=ap, load_sparse=True, num_channel=3, num_class=3)
     runner.run(NormalsTrainer, NormalsDataset)
