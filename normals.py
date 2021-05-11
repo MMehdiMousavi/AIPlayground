@@ -2,12 +2,14 @@ import os
 import random
 
 import numpy as np
+import torch
 import torch.nn.functional as F
 import torchvision.transforms as tmf
 from PIL import Image as IMG
 from easytorch import ETTrainer, ETDataset, ETAverages
 from easytorch.vision import (Image, expand_and_mirror_patch, merge_patches)
 from easytorch.vision import get_chunk_indexes
+from torchvision import transforms as tmf, utils as vutils
 
 from models import UNet
 
@@ -75,6 +77,7 @@ class NormalsTrainer(ETTrainer):
         labels = batch['label'].to(self.device['gpu']).float()
 
         out = self.nn['model'](inputs)
+        out = torch.sigmoid(out)
         loss = F.smooth_l1_loss(out, labels)
 
         sc = self.new_metrics()
@@ -83,7 +86,7 @@ class NormalsTrainer(ETTrainer):
         avg = self.new_averages()
         avg.add(loss.item(), len(inputs))
 
-        return {'loss': loss, 'averages': avg, 'metrics': sc, 'output': out}
+        return {'loss': loss, 'averages': avg, 'metrics': sc, 'output': out, 'input': inputs}
 
     def save_predictions(self, dataset, its):
         dataset_name = list(dataset.dataspecs.keys())[0]
@@ -107,3 +110,10 @@ class NormalsTrainer(ETTrainer):
 
     def new_metrics(self):
         return ETAverages()
+
+    def _on_iteration_end(self, **kw):
+        if kw['i'] % 256 == 0:
+            grid = vutils.make_grid(kw['it']['output']()[:10], padding=2, normalize=True)
+            vutils.save_image(grid, f"{self.cache['log_dir']}{sep}recons.png")
+            grid = vutils.make_grid(kw['it']['input']()[:10], padding=2, normalize=True)
+            vutils.save_image(grid, f"{self.cache['log_dir']}{sep}real.png")
