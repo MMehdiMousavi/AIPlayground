@@ -126,3 +126,19 @@ dmypy.json
 logs_backup
 .ipynb_checkpoints
 net_logs
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/1.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/2.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/3.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/4.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/5.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/6.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/gt/7.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/1.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/2.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/3.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/4.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/5.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/6.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/image/7.png
+Neural Networks/SynthNet - Segmentation/data/UNREAL/rgb_labels.csv
+Neural Networks/SynthNet - Segmentation/data/UNREAL/splits/SEG.json

@@ -13,12 +13,12 @@ def same(x): return x
 
 SEG_DATASET = {
     'name': 'SEG',
-    'data_dir': 'AIP-DEMO' + sep + 'Images',
-    'label_dir': 'AIP-DEMO' + sep + 'GT_seg',
-    'split_dir': 'AIP-DEMO' + sep + 'splits',
+    'data_dir': 'Picture_Caustic',
+    'label_dir': 'Seg_Processed',
+    # 'split_dir': 'AIP-DEMO' + sep + 'splits',
     'label_getter': same,
     'patch_shape': (388, 388),
-    'patch_offset': (200, 200),
+    'patch_offset': (350, 350),
     'expand_by': (184, 184)
 }
 

@@ -78,7 +78,7 @@ class NormalsTrainer(ETTrainer):
 
         out = self.nn['model'](inputs)
         out = torch.sigmoid(out)
-        loss = F.smooth_l1_loss(out, labels)
+        loss = F.mse_loss(out, labels)
 
         sc = self.new_metrics()
         sc.add(loss.item(), len(inputs))
@@ -106,14 +106,15 @@ class NormalsTrainer(ETTrainer):
 
     def init_experiment_cache(self):
         self.cache.update(monitor_metric='average', metric_direction='minimize')
-        self.cache.update(log_header='Smooth_L1_loss')
+        self.cache.update(log_header='MSE_loss')
 
     def new_metrics(self):
         return ETAverages()
 
-    def _on_iteration_end(self, **kw):
-        if kw['i'] % 256 == 0:
-            grid = vutils.make_grid(kw['it']['output']()[:10], padding=2, normalize=True)
-            vutils.save_image(grid, f"{self.cache['log_dir']}{sep}recons.png")
-            grid = vutils.make_grid(kw['it']['input']()[:10], padding=2, normalize=True)
-            vutils.save_image(grid, f"{self.cache['log_dir']}{sep}real.png")
+    # def _on_iteration_end(self, **kw):
+    #     if kw['i'] % 256 == 0:
+    #         grid = vutils.make_grid(kw['it']['output']()[:10], padding=2, normalize=True)
+    #         vutils.save_image(grid, f"{self.cache['log_dir']}{sep}recons.png")
+    #         grid = vutils.make_grid(kw['it']['input']()[:10], padding=2, normalize=True)
+    #         vutils.save_image(grid, f"{self.cache['log_dir']}{sep}real.png")
+

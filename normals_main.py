@@ -13,12 +13,12 @@ def same(x): return x
 
 NORM_DATA = {
     'name': 'NORM',
-    'data_dir': 'AIP-DEMO' + sep + 'Images',
-    'label_dir': 'AIP-DEMO' + sep + 'GT_norm',
-    'split_dir': 'AIP-DEMO' + sep + 'splits',
+    'data_dir': 'Picture_Caustic',
+    'label_dir': 'Normal',
+    # 'split_dir': 'Caustic\\splits',
     'label_getter': same,
     'patch_shape': (388, 388),
-    'patch_offset': (200, 200),
+    'patch_offset': (350, 350),
     'expand_by': (184, 184)
 }
 
