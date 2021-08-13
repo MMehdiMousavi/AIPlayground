@@ -20,7 +20,7 @@ AIP will allow you to swap in different aspects of data without changing the oth
 ## AIP:
 A Virtual Environment for Various Machine Learning and/or a Dataset Generation tool for Image processing.
 
-AIP Can be used to Generate Entire Datasets for various Machine Learning uses. It supports Depth Estimation, Surface Normal Estimation and Pixelwise Segmentation for up to 256 Classes out of the box. 
+AIP Can be used to Generate Entire Datasets for various Machine Learning purposes. It supports Depth Estimation, Surface Normal Estimation and Pixelwise Segmentation for up to 256 Classes out of the box. 
 AIP Features Keyboard macros and an interaction Module named "Probe"  that can remember and reproduce the same Image over different circumstances. 
 AIP's code can be used to make new environments while keeping the features for other purposes.
 
