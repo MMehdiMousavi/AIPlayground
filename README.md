@@ -58,7 +58,7 @@ Press T to view the prespective Depth (Distance of each pixel to the camera)
  E for Greyscale Colors
  H, J, K, L for Very High, High, Medium, Low Graphics 
  B for Unlit Pass 
- Y, U, I, O for Switching Between Maps 
+ Y, U, I, O for switching between maps 
  
 
 Map: 
