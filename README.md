@@ -24,7 +24,7 @@ AIP Can be used to Generate Entire Datasets for various Machine Learning purpose
 AIP Features Keyboard macros and an interaction Module named "Probe"  that can remember and reproduce the same Image over different circumstances. 
 AIP's code can be used to make new environments while keeping the features for other purposes.
 
-AIP  uses 
+AIP  uses customizable Post-processing for generating ground-truth annotations, making it flexible for use in characters and cameras, as well as global unbound post processing volumes.
 
 <p align="center">
   <img src="Assets/Structure.png" alt="drawing" width="600"/>
