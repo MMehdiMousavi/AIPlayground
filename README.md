@@ -48,7 +48,9 @@ AIP  uses customizable Post-processing for generating ground-truth annotations, 
     Step 6: Export your project or Run it in an independent window. Probe will recognize your Window handle and start sending commands to it. 
     
     Probe Will now start gathering Images based on your setup specifications. Memory module will be saved in a folder called "Probe". If you need to reproduce the images, you need to make sure to save that file.
-## Hotkeys: 
+    
+ 
+## AIP Character Hotkeys: 
 ##### - Segmentation Glass: 
 Press G for a Global Class Based Pixelwise labels. 
 Press 0-9 and Ctrl+1 to Ctrl+4 to Access Binary Class-based Pixelwise Labels.
