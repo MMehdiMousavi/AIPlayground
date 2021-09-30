@@ -51,7 +51,7 @@ AIP  uses customizable Post-processing for generating ground-truth annotations, 
     
  
 ## AIP Character Hotkeys: 
-##### - Segmentation Glass: 
+##### - Segmentations Glass: 
 Press G for a Global Class Based Pixelwise labels. 
 Press 0-9 and Ctrl+1 to Ctrl+4 to Access Binary Class-based Pixelwise Labels.
 ##### - Surface Normals Glass:
